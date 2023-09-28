@@ -1,0 +1,102 @@
+/* App container */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #c6cc8d;
+  border: none;
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  
+}
+.submain{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+
+  align-items: center;
+
+}
+
+.header{
+  display: flex;
+  flex-direction: column;
+  
+}
+.header button{
+  background-color: red;
+  color: white;
+  height: 5vh;
+  width: 5vw;
+  text-align: center;
+  margin-left: 80%;
+  border-radius: 10px;
+  border: none;
+}
+.input{
+  display: flex;
+  flex-direction: row;
+  margin-top: 5vh;
+  width: 100%;
+  justify-content: center;
+  
+}
+input{
+  height: 6vh;
+  width: 30%;
+  border-radius: 20px;
+  border: none;
+  text-align: center;
+}
+.input button{
+  height: 6vh;
+  width: 10vw;
+  background-color: green;
+  color: white;
+  margin-left: 1vw;
+  border-radius: 10px;
+  border: none;
+}
+.list{
+  height: 30%;
+  width: 50%;
+  margin-top: 2vh;
+}
+.list li{
+  height: 5vh;
+  width: 50%;
+  background-color: blue;
+  color: white;
+  margin: auto;
+  margin-bottom: 2vh;
+  margin-left: 14%;
+  text-align: center;
+  border-radius: 20px;
+  border: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.list li p{
+  cursor: pointer;
+}
+.list li img{
+  height: 2vh;
+  width: 1vw;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.completed{
+  text-decoration: line-through;
+  color: black;
+}
+hr{
+  height: 0.5vh;
+  width: 100%;
+  color: blue;
+}
